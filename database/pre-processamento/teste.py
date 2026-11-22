@@ -13,7 +13,7 @@ sys.stdout.reconfigure(encoding="utf-8")
 
 # ===================== CONFIGURAÇÃO =====================
 ARQUIVO = "histórico-de-visualização.json"   # JSON com os vídeos assistidos
-API_KEY = "AIzaSyCL_dNwFdJFzyDNUqZOLr56E3e6bSNODh8"          # YouTube Data API v3
+API_KEY = "xxx"          # YouTube Data API v3
 CSV_LIMPO = "historico_limpo.csv"
 CACHE_API = "metadados_cache.json"       # guarda o que já foi buscado
 CSV_FINAL = "historico_enriquecido.csv"

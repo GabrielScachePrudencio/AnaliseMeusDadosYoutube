@@ -1,0 +1,97 @@
+1. Dados em Formato de Tabela (Aproximado)
+
+Categoria (Eixo X)	Frequência (Eixo Y)
+outros	~23.400
+anime_ge... (anime_geral)	~8.500
+gamepla... (gameplay)	~8.000
+anime_m... (anime_música?)	~6.300
+futebol_g... (futebol_geral)	~6.200
+humor_...	~6.000
+curiosida...	~5.600
+ciencia_g... (ciência_geral)	~4.500
+vlogs_cot... (vlogs_cotidiano)	~3.500
+podcasts...	~3.000
+filmes_se... (filmes_séries)	~2.400
+games_n... (games_notícias?)	~2.350
+historia_g... (história_geral)	~2.250
+animais_...	~1.800
+musica_g... (música_geral)	~1.300
+esportes_...	~1.200
+program... (programação)	~1.000
+tecnologi... (tecnologia)	~600
+exploraca... (exploração)	~500
+noticias_...	~350
+musica_i... (musica_infantil?)	~300
+educacao...	~250
+
+
+correlations coloque uma tabela ate 20 linhas
+Feature 1	Feature 2	Correlation	uncorrected p	FDR
+tema=esportes_geral	tema_next_video=games_noticias_dicas	9.12545e-05	0.978293	0.982647
+tema=historia_geral	tema_next_video=futebol_geral	5.65065e-05	0.986558	0.989062
+tema=educacao_estudos	tema_next_video=animais_natureza	1.72208e-05	0.995903	0.996032
+tema=animais_natureza	tema_next_video=animais_natureza	0.443368	0	0
+tema=anime_musica	tema_next_video=anime_musica	0.425733	0	0
+categoria=Música	tema_next_video=anime_musica	0.421977	0	0
+categoria=Animais	tema_next_video=animais_natureza	0.351959	0	0
+reassistido=1	tema_next_video=anime_musica	0.286988	0	0
+tema=programacao_estudo	tema_next_video=programacao_estudo	0.270102	0	0
+tema=vlogs_cotidiano	tema_next_video=vlogs_cotidiano	0.231873	0	0
+is_short=0	tema_next_video=anime_musica	0.218641	0	0
+tema=tecnologia_hardware	tema_next_video=tecnologia_hardware	0.196729	0	0
+tema=esportes_geral	tema_next_video=esportes_geral	0.19263	0	0
+tema=futebol_geral	tema_next_video=futebol_geral	0.167849	0	0
+tema=gameplay_geral	tema_next_video=gameplay_geral	0.166183	0	0
+tema=anime_geral	tema_next_video=anime_geral	0.149842	0	0
+categoria=Música	tema_next_video=musica_geral	0.1477	0	0
+duracao_s	tema_next_video=anime_musica	0.135201	0	0
+tema=outros	tema_next_video=outros	0.131113	0	0
+categoria=Esportes	tema_next_video=futebol_geral	0.125164	3.16794e-307	7.1505e-306
+tema=ciencia_geral	tema_next_video=ciencia_geral	0.12194	1.35274e-291	2.8689e-290
+tema=educacao_estudos	tema_next_video=educacao_estudos	0.121277	1.97067e-288	4.15155e-287
+duracao_s	tema_next_video=anime_geral	0.121121	1.08466e-287	2.26989e-286
+tema=musica_instrumental	tema_next_video=musica_instrumental	0.120753	6.02208e-286	1.25196e-284
+tema=humor_memes	tema_next_video=humor_memes	0.119706	5.19664e-281	1.04595e-279
+tema=curiosidades_geral	tema_next_video=curiosidades_geral	0.117763	5.7273e-272	1.08373e-270
+tema=musica_geral	tema_next_video=musica_geral	0.114324	2.45157e-256	4.45228e-255
+is_short=0	tema_next_video=anime_geral	0.113162	3.67814e-251	6.49325e-250
+categoria=Games	tema_next_video=gameplay_geral	0.111621	2.20596e-244	3.8092e-243
+tema=musica_geral	tema_next_video=anime_musica	0.104984	2.82378e-216	4.57597e-215
+is_short=1	tema_next_video=animais_natureza	0.103238	3.58156e-209	5.71602e-208
+tema=anime_musica	tema_next_video=musica_geral	0.101989	3.62367e-204	5.61313e-203
+tema=games_noticias_dicas	tema_next_video=games_noticias_dicas	0.10168	6.16095e-203	9.49687e-202
+is_short=1	tema_next_video=curiosidades_geral	0.0974008	2.62262e-186	3.69977e-185
+reassistido=0	tema_next_video=outros	0.091559	8.87047e-165	1.1488e-163
+is_short=1	tema_next_video=outros	0.0868226	2.58414e-148	3.05838e-147
+categoria=Música	tema_next_video=musica_instrumental	0.0862301	2.56948e-146	3.00724e-145
+tema=historia_geral	tema_next_video=historia_geral	0.0792602	7.37004e-124	7.81521e-123
+reassistido=1	tema_next_video=musica_geral	0.079009	4.37691e-123	4.59503e-122
+tema=exploracao_aventura	tema_next_video=exploracao_aventura	0.0759385	7.91651e-114	8,018E-110
+categoria=Filmes e Animação	tema_next_video=anime_geral	0.0740953	1.89625e-108	1.83809e-107
+is_short=0	tema_next_video=musica_geral	0.0699262	9.01678e-97	8.25885e-96
+tema=filmes_series	tema_next_video=filmes_series	0.0696643	4.63338e-96	4.19526e-95
+reassistido=1	tema_next_video=anime_geral	0.0627919	2.29924e-78	1.80736e-77
+categoria=Educação	tema_next_video=animais_natureza	0.062266	4.36389e-77	3.38818e-76
+reassistido=0	tema_next_video=curiosidades_geral	0.061703	9.91349e-76	7.60355e-75
+categoria=Ciência e Tecnologia	tema_next_video=tecnologia_hardware	0.061619	1.57642e-75	1.20617e-74
+categoria=Autos	tema_next_video=vlogs_cotidiano	0.0606728	2.79655e-73	2.09907e-72
+is_short=1	tema_next_video=ciencia_geral	0.0588028	6.14645e-69	4.41427e-68
+
+
+
+
+rank 
+views	0.0117445	0.00225363
+duracao_s	0.0608065	0.012107
+categoria	0.0577964	0.0215576
+is_short	0.0792105	0.00691978
+hora	0.00479081	0.000737677
+periodo_dia	0.00523957	0.000655783
+dia_semana	0.00202602	0.000364654
+fim_de_semana	0.00342173	0.000393581
+mes	0.00447684	0.000542625
+tema	0.0722216	0.036061
+reassistido	0.0838743	0.00817935
+vezes_assistido_ate_agora	0.118708	0.0171255
+vezes_canal_ate_agora	0.0107674	0.00346489
+tempo_desde_anterior_s	0.0169198	0.0035399
